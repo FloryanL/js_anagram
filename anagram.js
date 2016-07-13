@@ -14,4 +14,23 @@ Anagram.prototype.matches = function (words) {
 //
 // YOUR CODE GOES HERE
 //
+
+Anagram.prototype.matches = function (words) {
+  // YOUR CODE GOES HERE
+
+  var matches, subject, i;
+  matches = ['hello', 'world', 'zombies', 'pants'];
+  subject = new Anagram('diaper');
+
+  function tabl(matches) {
+    string = matches.toLowerCase();  /*mettre en minuscule */
+    string = matches.sort();   /*trie les éléments d'un tableau dans l'ordre croissant */
+    //string = matches.length; 
+  }
+  for (i = 0; i > string.length; i++) {
+    tabl[i] = Math.random() + string.charAt(i);
+  }
+  return result;
+};
+
 }
